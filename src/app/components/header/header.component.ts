@@ -17,8 +17,9 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     const _ = this;
-    if(_.router.url == '/'){
-      _.header.nativeElement.classList.add('isWelcome');
-    }
+    console.log(_.router.url, ' iosa');
+    // if(_.router.url == '/'){
+    //   _.header.nativeElement.classList.add('isWelcome');
+    // }
   }
 }

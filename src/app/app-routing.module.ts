@@ -5,6 +5,7 @@ import { WelcomeComponent } from './views/welcome/welcome.component';
 import { HomeComponent } from './views/home/home.component';
 import { NotificationsComponent } from './views/notifications/notifications.component';
 import { LoginComponent } from './views/login/login.component';
+import { InteriorComponent } from './views/interior/interior.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent,
+  },
+  {
+    path: 'product',
+    component: InteriorComponent,
   },
 ];
 

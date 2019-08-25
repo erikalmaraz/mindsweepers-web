@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  @ViewChild('header', {static: true}) header:ElementRef;
+  @ViewChild('header', {static: true}) header: ElementRef;
 
   constructor(
     private router: Router,

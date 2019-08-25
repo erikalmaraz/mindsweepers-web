@@ -9,9 +9,9 @@ import { LoginComponent } from './views/login/login.component';
 import { HomeComponent } from './views/home/home.component';
 import { NotificationsComponent } from './views/notifications/notifications.component';
 import { WelcomeComponent } from './views/welcome/welcome.component';
+import { InteriorComponent } from './views/interior/interior.component';
 // Services
 import { ProductsService } from './core/services/products.service';
-import { InteriorComponent } from './interior/interior.component';
 
 @NgModule({
   declarations: [

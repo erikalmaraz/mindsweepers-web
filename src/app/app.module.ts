@@ -11,6 +11,7 @@ import { NotificationsComponent } from './views/notifications/notifications.comp
 import { WelcomeComponent } from './views/welcome/welcome.component';
 // Services
 import { ProductsService } from './core/services/products.service';
+import { InteriorComponent } from './interior/interior.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductsService } from './core/services/products.service';
     LoginComponent,
     HomeComponent,
     NotificationsComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    InteriorComponent
   ],
   imports: [
     BrowserModule,

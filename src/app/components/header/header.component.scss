@@ -22,3 +22,39 @@
     width: 30px;
   }
 }
+
+.navigations-component{
+  position: fixed;
+  background: #fff;
+  top: 0;
+  right: 0;
+  width: 80%;
+  padding: 8px;
+  height: 100vh;
+  z-index: 9;
+  transition: all 1s ease;
+  right: -100%;
+  &.active{
+    right: 0;
+  }
+  div{
+    padding: 10px 23px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.navigation-mask{
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 8;
+  top: 0;
+  transition: all 1s ease;
+  right: -100%;
+  &.active{
+    right: 0;
+  }
+}

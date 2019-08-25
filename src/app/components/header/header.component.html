@@ -3,6 +3,30 @@
     <img src="/assets/logo.png" alt="">
   </div>
   <div class="header-component-menu">
-    <img src="/assets/burger-02.svg" alt="">
+    <img src="/assets/burger-02.svg" (click)="openMenu();" alt="">
+  </div>
+</section>
+<div class="navigation-mask" #mask (click)="openMenu();">
+</div>
+<section class="navigations-component" #menu>
+  <div class="navigations-component-top-menu">
+    <div [routerLink]="['/home']">
+      Tus motos
+    </div>
+    <div [routerLink]="['/notifications']">
+      Notificaciones
+    </div>
+    <div class="">
+      Accesorios
+    </div>
+    <div class="">
+      Mantenimiento
+    </div>
+    <div class="">
+      Creditos
+    </div>
+    <div class="">
+      Asistencia
+    </div>
   </div>
 </section>

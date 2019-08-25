@@ -1,7 +1,7 @@
 <section class="home-view">
-  <div class="home-view-notifications">
+  <div class="home-view-notifications" [routerLink]="['/notifications']">
     <div class="home-view-notifications-text">
-      Tienes <b>2</b> notificaciones
+      Tienes <b>1</b> notificaciones
     </div>
     <div class="home-view-notifications-icon">
       <img src="/assets/bell_notification.svg" alt="">
@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="home-view-products-list">
-    <div class="home-view-products-item">
+    <div class="home-view-products-item" [routerLink]="['/product']">
       <div class="home-view-products-item-top">
         <div class="">
           <img src="/assets/moto.png" alt="">

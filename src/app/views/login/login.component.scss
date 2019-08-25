@@ -1,0 +1,56 @@
+.login-view{
+  width: 95%;
+  margin: 170px auto;
+  max-width: 270px;
+}
+
+.login-view-others-way{
+  text-align: center;
+  .login-view-others-way-title{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .login-view-others-way-items{
+    color: #fff;
+    div{
+      padding: 10px 8px;
+      border-radius: 30px;
+      margin-bottom: 15px;
+      &:nth-child(1){
+        background: #0077f5;
+      }
+      &:nth-child(2){
+        background: #fb2e33;
+      }
+    }
+  }
+  .login-view-or-options{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.login-view-fields-item{
+  input{
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    font-weight: bold;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+
+.login-view-fields-button{
+  button{
+    background: #1a1370;
+    width: 100%;
+    padding: 11px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+}

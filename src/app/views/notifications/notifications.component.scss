@@ -1,0 +1,40 @@
+.notifications-view{
+  width: 95%;
+  margin: 110px auto;
+  max-width: 320px;
+}
+
+.notifications-view-title{
+  p{
+    margin-top: -10px;
+  }
+}
+
+.notifications-view-alert{
+  display: flex;
+  box-shadow: 0 0 8px #ddd;
+  border-radius: 15px;
+  padding: 0 12px;
+  .notifications-view-alert-info{
+    p{
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+  .notifications-view-alert-icon{
+    padding: 40px 19px 0 8px;
+  }
+  img{
+    width: 50px;
+  }
+  h4{
+    margin-bottom: -5px;
+  }
+  button{
+    color: #1d1673;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -6px;
+    margin-bottom: 5px;
+  }
+}

@@ -3,11 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { HeaderComponent } from './header/header.component';
-import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
-import { NotificationsComponent } from './notifications/notifications.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { HeaderComponent } from './components/header/header.component';
+import { LoginComponent } from './views/login/login.component';
+import { HomeComponent } from './views/home/home.component';
+import { NotificationsComponent } from './views/notifications/notifications.component';
+import { WelcomeComponent } from './views/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NotificationsComponent } from './notifications/notifications.component'
     HeaderComponent,
     LoginComponent,
     HomeComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,

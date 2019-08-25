@@ -1,0 +1,24 @@
+.header-component{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 8px;
+  position: fixed;
+  width: 101%;
+  box-shadow: 0 3px 7px #ddd;
+  background: #fff;
+  top: 0;
+  &.isWelcome{
+    display: none;
+  }
+}
+.header-component-logo{
+  img{
+    width: 80px;
+  }
+}
+.header-component-menu{
+  img{
+    width: 30px;
+  }
+}
